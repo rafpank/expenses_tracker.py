@@ -1,5 +1,6 @@
 # $ python /expenses.py add 100 "Shopping for one hundred zloty"
 # $ python /expenses.py add 5000 "Large expense"
+# $ python /expenses.py add 25.5 "Shopping for 25.50"
 # $ python /expenses.py add -- -100 "Negative expense"
 # $ python /expenses.py report
 # $ python /expenses.py report --big
