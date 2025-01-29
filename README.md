@@ -1,15 +1,16 @@
 # expenses_tracker.py
 Expenses tracker
 
-# $ python /expenses.py add 100 "Shopping for one hundred"
-# $ python /expenses.py add 25.5 "Shopping for 25.50"
-# $ python /expenses.py add 5000 "Large expense"
-# $ python /expenses.py add -- -100 "Negative expense"
-# $ python /expenses.py report
-# $ python /expenses.py report --big
-# $ python /expenses.py import-python
-# $ python /expenses.py export-csv
-# $ python /expenses.py export-python
+# command line commands
+ $ python /expenses.py add 100 "Shopping for one hundred"
+ $ python /expenses.py add 25.5 "Shopping for 25.50"
+ $ python /expenses.py add 5000 "Large expense"
+ $ python /expenses.py add -- -100 "Negative expense"
+ $ python /expenses.py report
+ $ python /expenses.py report --big
+ $ python /expenses.py import-python
+ $ python /expenses.py export-csv
+ $ python /expenses.py export-python
 
 The program enables users to easily add new expenses and generate reports. It retains data between sessions by storing all information in a file. Each expense has an ID, a description, and an amount.
 
